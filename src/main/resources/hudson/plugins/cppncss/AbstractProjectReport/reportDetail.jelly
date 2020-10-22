@@ -16,7 +16,7 @@
                 	<j:set var="ccntotall" value="${ccntotall + r.ccn}"/>
                 	<j:set var="fcount" value="${fcount + 1}"/>
 	                <tr>
-	                    <th align="left">${r.name.substring(0,r.name.indexOf(')') + 1)}</th>
+	                    <th align="left">${r.name.substring(0,r.name.indexOf(' at ') + 1)}</th>
 	                    <td align="right">${r.ncss}</td>
 	                    <td align="right">${r.ccn}</td>
 	                </tr>
